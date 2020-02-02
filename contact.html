@@ -21,13 +21,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item-active">
                         <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
             </div>
@@ -35,38 +35,28 @@
         <div class="col-md-6 bg-white d-flex justify-content-center mt-5 mx-auto p-5">
             <div class='container'>
                 <div class='row ml-0'>
-                    <h1 class='teal-text'>About Me</h1>
+                    <h1 class='teal-text'>Contact</h1>
                 </div>
                 <div class='row'>
                     <div class='col-12'>
                     <hr>
                 </div>
                 </div>
-                <div class='row'>
-                    <div class='col-2 px-2'>
-                        <img src='./dane.png' class='img-fluid' alt='cat'>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Name</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <div class='col-10'>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laudantium ducimus
-                            quasi
-                            itaque
-                            dolor debitis velit deserunt soluta ipsa voluptatibus inventore pariatur, repellendus et
-                            esse
-                            consequuntur. Eius aperiam similique molestias?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laudantium ducimus
-                            quasi
-                            itaque
-                            dolor debitis velit deserunt soluta ipsa voluptatibus inventore pariatur, repellendus et
-                            esse
-                            consequuntur. Eius aperiam similique molestias?
-                        </p>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">E-mail Address</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <div class='row pt-2 px-4'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum similique illum ut quo odit optio, fuga repudiandae, debitis, odio repellendus fugit. Veniam, aut voluptate! Beatae impedit reprehenderit illum repudiandae corporis.</p>
-                    </div>
-                    <div class='row px-4 pt-1'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nulla aliquid rerum accusantium dolores assumenda quia, iste quis rem ullam quam quo saepe, vero illum sint tenetur, modi ipsa accusamus.</p>
-                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>

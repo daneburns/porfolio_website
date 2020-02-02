@@ -1,0 +1,77 @@
+.navbar-brand {
+    background-color: teal;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("./bg2.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .containerbgcolor {
+      background-color: white;
+      width: 50%;
+      height: 30%;   
+  }
+
+  .wrapcontainer {
+      width:100%;
+  }
+
+  .teal-text {
+      color: teal;
+  }
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background:teal;
+}
+
+.caption
+{
+    background-color: teal;
+    position: absolute;
+    top: 60%;
+    bottom: 50%;
+    width: 100%;
+    color: white;
+    text-align:center;
+    height: 30%;
+}
+
+.holder {
+    position: relative;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color:teal;
+    border:teal;
+}
+
+.btn-primary:hover {
+    
+    background-color: rgb(13, 63, 63) ;
+    border:teal;
+}
