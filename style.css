@@ -1,5 +1,5 @@
 .navbar-brand {
-    background-color: teal;
+    background-color: #f7d668;
     color: white;
 }
 
@@ -30,12 +30,13 @@
   }
 
   .teal-text {
-      color: teal;
+      color: #f7d668;
   }
 
 
 #page-content {
   flex: 1 0 auto;
+  background-color: #f7d668;
 }
 
 #sticky-footer {
@@ -45,12 +46,12 @@
 /* Other Classes for Page Styling */
 
 #footerdiv {
-  background:teal;
+  background:#f7d668;
 }
 
 .caption
 {
-    background-color: teal;
+    background-color: #f7d668;
     position: absolute;
     top: 60%;
     bottom: 50%;
@@ -66,13 +67,23 @@
 }
 
 .btn-primary {
-    background-color:teal;
-    border:teal;
+    background-color:#f7d668;
+    border:#f7d668;
 }
 
 .btn-primary:hover {
     
-    background-color: rgb(13, 63, 63) ;
-    border:teal;
+    background-color: #f7d668;
+    border:#f7d668;
 }
 
+a {
+  color: black;
+}
+body,html {
+  height:100%;
+}
+
+.footerstyle {
+  clear:both;
+}
